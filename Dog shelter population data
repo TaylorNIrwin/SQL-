@@ -1,0 +1,21 @@
+CREATE TABLE dog_shelter_population (id INTEGER, name TEXT, days_at_shelter INTEGER, breed TEXT, kennel_number TEXT);
+
+INSERT INTO dog_shelter_population VALUES (1, "Henry", 3, "Collie", 324);
+INSERT INTO dog_shelter_population VALUES (2, "Lila", 17, "Beagle", 042);
+INSERT INTO dog_shelter_population VALUES (3, "Rocky", 43, "Mix", 116);
+INSERT INTO dog_shelter_population VALUES (4, "Ginger", 37, "Chihuahua", 008);
+INSERT INTO dog_shelter_population VALUES (5, "Fred", 9, "Mix", 242);
+INSERT INTO dog_shelter_population VALUES (6, "Sable", 20, "Husky", 094); 
+INSERT INTO dog_shelter_population VALUES (7, "Nigel", 56, "Labrador", 310);
+INSERT INTO dog_shelter_population VALUES (8, "Kent", 25, "Yorkshire Terrier", 087);
+INSERT INTO dog_shelter_population VALUES (9, "Griswold", 85, "Mix", 053); 
+INSERT INTO dog_shelter_population VALUES (10, "Jean", 5, "Golden Retriever", 037);
+INSERT INTO dog_shelter_population VALUES (11, "Walt", 19, "Pitbull", 183);
+INSERT INTO dog_shelter_population VALUES (12, "Pauly", 64, "Mix", 009);
+INSERT INTO dog_shelter_population VALUES (13, "Caty", 74, "Beagle", 275);
+INSERT INTO dog_shelter_population VALUES (14, "Quinton", 30, "Chihuahua", 306);
+INSERT INTO dog_shelter_population VALUES (15, "Red", 8, "Mix", 074);
+SELECT * FROM dog_shelter_population;
+
+SELECT AVG(days_at_shelter) from dog_shelter_population;
+
